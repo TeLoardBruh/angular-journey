@@ -6,8 +6,16 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { ServerComponent } from './server/server.component';
+import { WarningAlertComponent } from './warning-alert/warning-alert.component';
+import { SuccessAlertComponent } from './sucess-alert/success-alert.component';
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+    ServerComponent,
+    WarningAlertComponent,
+    SuccessAlertComponent,
+  ],
   imports: [
     BrowserModule,
     FormsModule,
