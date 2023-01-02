@@ -1,0 +1,11 @@
+<app-game-control (startInterval)="startInterval($event)"></app-game-control>
+<app-evenorodd>
+  <div *ngFor="let item of oddNumber">
+    <p class="text-info">Odd number {{ item }}</p>
+  </div>
+</app-evenorodd>
+<app-evenorodd>
+  <div *ngFor="let item of eventNumber">
+    <p class="text-warning">Event number {{ item }}</p>
+  </div>
+</app-evenorodd>
