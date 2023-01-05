@@ -8,8 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'recipe-app';
   loadedNav: string = 'recipe';
-
-  selectActiveNav(navName: string) {
-    this.loadedNav = navName;
-  }
 }
